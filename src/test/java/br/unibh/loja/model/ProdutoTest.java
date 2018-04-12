@@ -10,7 +10,7 @@ import java.math.BigDecimal;
 import org.junit.Test;
 
 /**
- * @author 117114305
+ * @author Timoshenko
  *
  */
 public class ProdutoTest {

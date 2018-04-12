@@ -6,7 +6,7 @@ package br.unibh.loja.model;
 import java.math.BigDecimal;
 
 /**
- * @author 117114305
+ * @author Timoshenko
  *
  */
 public class Produto {

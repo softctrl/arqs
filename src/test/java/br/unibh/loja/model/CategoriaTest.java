@@ -8,7 +8,7 @@ import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
 /**
- * @author 117114305
+ * @author Timoshenko
  *
  */
 public class CategoriaTest {

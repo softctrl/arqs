@@ -4,7 +4,7 @@
 package br.unibh.loja.model;
 
 /**
- * @author 117114305
+ * @author Timoshenko
  *
  */
 public class Categoria {

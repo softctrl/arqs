@@ -6,7 +6,7 @@ package br.unibh.loja.model;
 import java.util.Date;
 
 /**
- * @author 117114305
+ * @author Timoshenko
  *
  */
 public class Cliente {
