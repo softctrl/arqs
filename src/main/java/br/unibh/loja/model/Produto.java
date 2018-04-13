@@ -17,6 +17,7 @@ public class Produto {
 	private Categoria categoria;
 	private BigDecimal preco;
 	private String fabricante;
+	private Long version;
 
 	/**
 	 * 
@@ -207,6 +208,14 @@ public class Produto {
 	public String toString() {
 		return "Produto [id=" + id + ", nome=" + nome + ", descricao=" + descricao + ", categoria=" + categoria
 				+ ", preco=" + preco + ", fabricante=" + fabricante + "]";
+	}
+
+	public Long getVersion() {
+		return version;
+	}
+
+	public void setVersion(Long version) {
+		this.version = version;
 	}
 
 }

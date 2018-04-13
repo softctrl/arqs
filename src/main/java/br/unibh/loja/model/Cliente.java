@@ -5,13 +5,19 @@ package br.unibh.loja.model;
 
 import java.util.Date;
 
+import javax.persistence.Id;
+import javax.persistence.Table;
+
 /**
  * @author Timoshenko
  *
  */
+@Table(name = "tb_cliente")
 public class Cliente {
 
+	@Id
 	private Long id;
+
 	private String nome;
 	private String login;
 	private String senha;
@@ -21,6 +27,7 @@ public class Cliente {
 	private String email;
 	private Date dataNascimento;
 	private Date dataCadastro;
+	private Long version;
 
 	/**
 	 * 
@@ -305,6 +312,14 @@ public class Cliente {
 		return "Cliente [id=" + id + ", nome=" + nome + ", login=" + login + ", senha=" + senha + ", perfil=" + perfil
 				+ ", cpf=" + cpf + ", telefone=" + telefone + ", email=" + email + ", dataNascimento=" + dataNascimento
 				+ ", dataCadastro=" + dataCadastro + "]";
+	}
+
+	public Long getVersion() {
+		return version;
+	}
+
+	public void setVersion(Long version) {
+		this.version = version;
 	}
 
 }

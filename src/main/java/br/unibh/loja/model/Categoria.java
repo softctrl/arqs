@@ -11,6 +11,7 @@ public class Categoria {
 
 	private Long id;
 	private String descricao;
+	private Long version;
 
 	/**
 	 * 
